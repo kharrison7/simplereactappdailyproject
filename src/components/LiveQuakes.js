@@ -6,7 +6,6 @@ import axios from 'axios';
 export default class EarthquakeListLive extends Component {
   constructor() {
     super();
-
     this.state = {
       listofLivequakes: []
     };

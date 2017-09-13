@@ -1,3 +1,11 @@
+Props vs State:
+Both belong to a React component. Both are plain JavaScript Objects. Both trigger a render update when changed. Props act as the configuration of a component. They are immutable to the component receiving them from a parent component. State is like a snapshot of a component at a specific time. State has a default value when a component mounts and then when a user event occurs state can change. A parent component can pass props to a child but a component manages state internally.
+
+This program uses the axios module to get live earthquake data from:
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -283,7 +291,7 @@ In the WebStorm menu `Run` select `Edit Configurations...`. Then click `+` and s
 
 Start your app by running `npm start`, then press `^D` on macOS or `F9` on Windows and Linux or click the green debug icon to start debugging in WebStorm.
 
-The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine. 
+The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine.
 
 ## Formatting Code Automatically
 
@@ -1769,7 +1777,7 @@ If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to c
     RewriteRule ^ index.html [QSA,L]
 ```
 
-It will get copied to the `build` folder when you run `npm run build`. 
+It will get copied to the `build` folder when you run `npm run build`.
 
 If you’re using [Apache Tomcat](http://tomcat.apache.org/), you need to follow [this Stack Overflow answer](https://stackoverflow.com/a/41249464/4878474).
 
