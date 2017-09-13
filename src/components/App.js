@@ -16,6 +16,9 @@ class App extends Component {
       <div className="my-header">
       "Live Earthquakes!"
       </div>
+      <div className="earthquake-title">
+     "This is a list of earthquakes that happened over the past hour."
+     </div>
         <EarthquakeListLive />
         <br />
         <hr />
